@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="COM_NHSJOBS_NHSJOBS">
+		<message>
+			<![CDATA[COM_NHSJOBS_NHSJOBS_DESC_MENU]]>
+		</message>
+	</layout>
+
+	<!-- Add fields to the parameters object for the layout. -->
+	<fields name="params">
+	<!-- Basic options. -->
+		<fieldset name="basic"	label="NHS Jobs" addfieldpath="/administrator/components/com_nhsjobs/models/fields">
+			<field
+			name="orgs"
+			type="text"
+			label="Organisations"
+			description="Organisation codes separated by a comma"
+			default=""
+			/>	
+			<field
+			name="internal"
+			type="radio"
+			label="Include Internal Jobs"
+			description="Show internal jobs as well as publically viewable"
+			default="0" >
+				<option value="0">No</option>
+  				<option value="1">Yes</option>
+			</field>	
+		</fieldset>	
+	</fields>
+
+</metadata>
