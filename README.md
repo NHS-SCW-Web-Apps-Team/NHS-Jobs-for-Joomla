@@ -4,7 +4,7 @@ Requirements :
 
 Joomla 3.x 
 
-CURL - this needs CURL 
+CURL - this needs CURL enabled
 
 
 To use add the organisations client id in the menu item parameter to display just the jobs for that organisation. 
