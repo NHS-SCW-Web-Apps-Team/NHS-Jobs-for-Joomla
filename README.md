@@ -1,6 +1,10 @@
 # NHS Jobs Joomla Component
 
-Requirements : CURL - this needs CURL 
+Requirements : 
+
+Joomla 3.x 
+CURL - this needs CURL 
+
 
 To use add the organisations client id in the menu item parameter to display just the jobs for that organisation. 
 
