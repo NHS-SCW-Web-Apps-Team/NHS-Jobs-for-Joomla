@@ -3,6 +3,7 @@
 Requirements : 
 
 Joomla 3.x 
+
 CURL - this needs CURL 
 
 
